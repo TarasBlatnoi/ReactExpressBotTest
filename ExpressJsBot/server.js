@@ -3,7 +3,7 @@ const express = require("express");
 const TelegramBot = require("node-telegram-bot-api");
 
 const token = process.env.BOT_TOKEN;
-const webAppUrl = "https://reactgameguessnum.netlify.app/";
+const webAppUrl = "https://reactexpressguessnumgame.netlify.app/";
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/echo (.+)/, (msg, match) => {

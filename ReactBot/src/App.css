@@ -8,3 +8,9 @@ body {
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
 }
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
