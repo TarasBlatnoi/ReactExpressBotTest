@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
-}
+} */
 
 html {
   font-size: 62.5%;
