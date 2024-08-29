@@ -12,5 +12,80 @@ body {
 html {
   font-size: 62.5%;
   width: 100vw;
+  color: #f7c469;
+  background-image: url("/pexels-photo-1670977.jpeg");
   -webkit-font-smoothing: antialiased;
+}
+
+input {
+  width: 19rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  border: 2px solid #f7c469;
+  font-size: 2rem;
+  border-radius: 1rem;
+  justify-self: flex-start;
+  padding: 1rem;
+}
+
+input:focus {
+  border-color: #f9c31f;
+  outline: none;
+  box-shadow: 0 0 5px rgba(249, 195, 31, 1);
+}
+
+form {
+  padding: 14rem 4rem;
+  border-radius: 5rem;
+  position: relative;
+  font-size: 2rem;
+  display: flex;
+  height: 48rem;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #714433;
+}
+
+.app {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.6rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin: 0 auto;
+  height: 6rem;
+  width: 20rem;
+  border: 1px solid #f7c469;
+  border-radius: 1rem;
+  outline: none;
+  color: #f7c469;
+  background-color: #412525;
+}
+
+.marginTopAuto {
+  margin-top: auto;
+}
+
+.wrongNumber {
+  border: 1px solid red;
+}
+
+.darker {
+  opacity: 0.5;
+  cursor: default;
 }
